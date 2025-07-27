@@ -33,4 +33,4 @@ COPY . /app
 # RUN alembic upgrade head
 
 # Set default command (this entry point can be overridden during debugging)
-CMD gunicorn app:app & python3 main.py
+CMD gunicorn app:app & python3 bot.py
